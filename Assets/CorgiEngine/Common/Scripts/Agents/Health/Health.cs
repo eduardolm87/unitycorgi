@@ -565,7 +565,7 @@ namespace MoreMountains.CorgiEngine
 		/// Kills the character, instantiates death effects, handles points, etc
 		/// </summary>
 		public virtual void Kill()
-		{
+		{		
 			if (ImmuneToDamage)
 			{
 				return;
@@ -678,7 +678,7 @@ namespace MoreMountains.CorgiEngine
 		/// Revive this object.
 		/// </summary>
 		public virtual void Revive()
-		{
+		{			
 			if (!_initialized)
 			{
 				return;

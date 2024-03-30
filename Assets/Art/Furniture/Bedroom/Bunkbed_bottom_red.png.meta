@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bunkbed_bottom_red_0: 5610433801707444287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

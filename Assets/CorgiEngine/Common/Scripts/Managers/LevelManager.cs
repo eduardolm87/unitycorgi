@@ -258,7 +258,7 @@ namespace MoreMountains.CorgiEngine
 			// we handle the spawn of the character(s)
 			if (Players.Count == 1)
 			{
-				SpawnSingleCharacter ();
+				SpawnSingleCharacter ();				
 			}
 			else
 			{
@@ -620,6 +620,7 @@ namespace MoreMountains.CorgiEngine
 		/// </summary>
 		public virtual void PlayerDead(Character player)
 		{
+			Debug.Log("Player is dead");
 			Health characterHealth = player.CharacterHealth;
 			if (characterHealth == null)
 			{
@@ -648,6 +649,7 @@ namespace MoreMountains.CorgiEngine
 				// if we have only one player, we restart the level
 				if (Players.Count < 2)
 				{
+					Debug.Log("Restarting level: extra life or undefined game over");
 					StartCoroutine (SoloModeRestart ());
 				}
 			}

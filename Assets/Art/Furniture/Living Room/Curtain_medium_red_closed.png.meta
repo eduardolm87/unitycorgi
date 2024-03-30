@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Curtain_medium_red_closed_0: 2764983729169512698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

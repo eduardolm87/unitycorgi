@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kitchen_utensil_hook_0: 6551269458613021658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

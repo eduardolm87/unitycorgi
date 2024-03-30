@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Countertop_connecting_0: 7108399637563987018
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

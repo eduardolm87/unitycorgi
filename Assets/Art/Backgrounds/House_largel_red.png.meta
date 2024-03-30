@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      House_largel_red_0: -3834798205580324503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
