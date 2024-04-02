@@ -1,20 +1,31 @@
+using MoreMountains.Tools;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MetaManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static MetaManager Instance;
+
+    private void Awake()
     {
-        //
-        //
-        //CorgiEngineEvent.Trigger(CorgiEngineEventTypes.GameOver);
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void LaunchGame()
     {
-        
+        MMSceneLoadingManager.LoadScene("Area1");
+        //TO-DO: Detectar cuando termina la carga y lanzar una corutina que haga cosas?
+        //Engancharme al GameManager, LevelManager, etc.
+        //NO spawnear el personaje sino llamarlo desde el LevelManager cuando yo quiera
     }
 }
